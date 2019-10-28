@@ -56,7 +56,17 @@
                                             <ul class="submenu">
                                                 <li><a href="index.html#Dashboard">Initial Findings</a></li>
                                                 <li><a href="index.html#Scatter">Scatter Plots</a></li>
-                                                <li><a href="index.html#machineLearning">Machine Learning</a></li>
+                                                
+                                                <li><a href="index.html#machineLearning">Machine Learning</a>
+                                                    <ul class="submenu">
+                                                        <li><a href="index.html#model1">All Features</a></li>
+                                                        <li><a href="index.html#model2">Econmic Features Only</a></li>
+                                                        <li><a href="index.html#model3">Political Features Only</a></li>
+                                                        <li><a href="index.html#model4">Genre Features Only</a></li>
+                                                        <li><a href="index.html#model5">Stock Features Only</a></li>
+                                                    </ul>
+                                                
+                                                </li>
                                             </ul>
                                         </li>
 
@@ -363,43 +373,88 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-4 col-md-6">
+
+            <!-- model 1 -->
+            <div class="row" id ="model1">
+                <div class="col-xl-12 col-md-12">
                     <div class="single_service text-center">
                         <div class="icon">
-                            <img src="img/service/1.png" alt="">
+                            <img src="img/001_all_features_ML.png" alt="">
                         </div>
-                        <h3>Initial Regression </h3>
-                        <p>........
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="single_service text-center">
-                        <div class="icon">
-                            <img src="img/service/2.png" alt="">
-                        </div>
-                        <h3>So we added more features</h3>
-                        <p>......
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="single_service text-center">
-                        <div class="icon">
-                            <img src="img/service/3.png" alt="">
-                        </div>
-                        <h3>Last Model</h3>
-                        <p>.........
+                        <h3>Initial Regression (The everything model)</h3>
+                        <p>Training Data Score: 0.25113925254385794 <br>
+                            Testing Data Score: 0.19565068264837315
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+        
+                <!-- model 2 -->
+               <div class="row" id="model2">
+                  <div class="col-xl-12 col-md-12">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/002_economic_features_ML.png" alt="">
+                        </div>
+                        <h3>All Economic Indicators</h3>
+                        <p>Training Data Score: 0.01155722195933373 <br>
+                            Testing Data Score: 0.011584270701709531</p>
 
+                        </div>
+                    </div>
+                </div>
+
+                <!-- model 3 -->
+                <div class="row" id="model3">
+                    <div class="col-xl-12 col-md-12">
+                      <div class="single_service text-center">
+                          <div class="icon">
+                              <img src="img/003_political_features_ML.png" alt="">
+                          </div>
+                          <h3>Political Features</h3>
+                          <p>Training Data Score: 0.011530720249488646 <br>
+                            Testing Data Score: -0.0003959243062587881</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- model 4 -->
+                  <div class="row" id="model4">
+                    <div class="col-xl-12 col-md-12">
+                      <div class="single_service text-center">
+                          <div class="icon">
+                              <img src="img/004_genre_features_ML.png" alt="">
+                          </div>
+                          <h3>Just Looking at Genre</h3>
+                          <p>
+                                Training Data Score: 0.24364675077169895 <br>
+                                Testing Data Score: 0.19556461270342362
+                          </p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- model 5 -->
+                  <div class="row" id ="model5">
+                    <div class="col-xl-12 col-md-12">
+                      <div class="single_service text-center">
+                          <div class="icon">
+                              <img src="img/005_stock_features_ML.png" alt=>
+                          </div>
+                          <h3>Stock Features Only </h3>
+                          <p>
+                                Training Data Score: 0.00447765488512164 <br>
+                                Testing Data Score: 0.007153854171215056
+                          </p>
+                          </div>
+                      </div>
+                  </div>
+        </div>
       
     </div>
     <!-- "machine learning end" -->
+
 
     <!-- Conclusion -->
     <div class="build_product" id = "conclusion">
