@@ -98,7 +98,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="agency_text">
-                        <h3> <span>What Makes People go to the Movies?</span> <br>
+                        <h3> <span> How do societal and economic factors impact movie going habits?</span> <br>
                             </h3>
 
                         <h3>We .......  
