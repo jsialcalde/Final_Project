@@ -362,7 +362,7 @@ We measured indicators like unemployment rate, median income, presidential appro
 <!--            Sentiment vs. Box Office -->
             <div class="col-xl-12 offset-xl-12 col-md-12" >
                     <div class="single_work spacec-top">
-                            <div class="work_heading" id = "Sentiment">
+                            <div class="work_heading" id = "sentiment">
                                 <h3>Box Office vs. Sentiment  </h3>
                             </div>
                         <div class="work_thumb">
@@ -435,7 +435,7 @@ We measured indicators like unemployment rate, median income, presidential appro
         </div>
         
                 <!-- sentiment only  -->
-                <div class="row" id="model2">
+                <div class="row" id="Sentiment">
                     <div class="col-xl-12 col-md-12">
                         <div class="single_service text-center">
                             <div class="icon">
