@@ -66,7 +66,7 @@
                                                     <ul class="submenu">
                                                         <li><a href="index.html#model1">All Features</a></li>
                                                         <li><a href="index.html#sentiment">Sentiment Features Only</a></li>
-                                                        <li><a href="index.html#model2">Econmic Features Only</a></li>
+                                                        <li><a href="index.html#model2">Economic Features Only</a></li>
                                                         <li><a href="index.html#model3">Political Features Only</a></li>
                                                         <li><a href="index.html#model4">Genre Features Only</a></li>
                                                         <li><a href="index.html#model5">Stock Features Only</a></li>
@@ -435,7 +435,7 @@ We measured indicators like unemployment rate, median income, presidential appro
         </div>
         
                 <!-- sentiment only  -->
-                <div class="row" id="Sentiment">
+                <div class="row" id="sentiment">
                     <div class="col-xl-12 col-md-12">
                         <div class="single_service text-center">
                             <div class="icon">
