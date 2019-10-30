@@ -65,6 +65,7 @@
                                                 <li><a href="index.html#machineLearning">Machine Learning</a>
                                                     <ul class="submenu">
                                                         <li><a href="index.html#model1">All Features</a></li>
+                                                        <li><a href="index.html#sentiment">Sentiment Features Only</a></li>
                                                         <li><a href="index.html#model2">Econmic Features Only</a></li>
                                                         <li><a href="index.html#model3">Political Features Only</a></li>
                                                         <li><a href="index.html#model4">Genre Features Only</a></li>
@@ -414,7 +415,7 @@ We measured indicators like unemployment rate, median income, presidential appro
                 <div class="col-xl-12 col-md-12">
                     <div class="single_service text-center">
                         <div class="icon">
-                            <img src="img/001_all_features_ML.png" alt="">
+                            <img src="images/001_all_features_ML.png" alt="">
                         </div>
                         <h3>Initial Regression (The everything model)</h3>
                         <p>Training Data Score: 0.25113925254385794 <br>
@@ -433,12 +434,28 @@ We measured indicators like unemployment rate, median income, presidential appro
             </div>
         </div>
         
+                <!-- sentiment only  -->
+                <div class="row" id="model2">
+                    <div class="col-xl-12 col-md-12">
+                        <div class="single_service text-center">
+                            <div class="icon">
+                                <img src="images/006_sentiment_features_ML.png" alt="">
+                            </div>
+                            <h3>Sentiment Features Only</h3>
+                            <p>Training Data Score: 0.0043352118341037915 <br>
+                                Testing Data Score: -0.0010335340781211233</p>
+    
+                            </div>
+                        </div>
+                    </div>
+
+
                 <!-- model 2 -->
                <div class="row" id="model2">
                   <div class="col-xl-12 col-md-12">
                     <div class="single_service text-center">
                         <div class="icon">
-                            <img src="img/002_economic_features_ML.png" alt="">
+                            <img src="images/002_economic_features_ML.png" alt="">
                         </div>
                         <h3>All Economic Indicators</h3>
                         <p>Training Data Score: 0.01155722195933373 <br>
@@ -453,7 +470,7 @@ We measured indicators like unemployment rate, median income, presidential appro
                     <div class="col-xl-12 col-md-12">
                       <div class="single_service text-center">
                           <div class="icon">
-                              <img src="img/003_political_features_ML.png" alt="">
+                              <img src="images/003_political_features_ML.png" alt="">
                           </div>
                           <h3>Political Features</h3>
                           <p>Training Data Score: 0.011530720249488646 <br>
@@ -467,7 +484,7 @@ We measured indicators like unemployment rate, median income, presidential appro
                     <div class="col-xl-12 col-md-12">
                       <div class="single_service text-center">
                           <div class="icon">
-                              <img src="img/004_genre_features_ML.png" alt="">
+                              <img src="images/004_genre_features_ML.png" alt="">
                           </div>
                           <h3>Just Looking at Genre</h3>
                           <p>
@@ -483,7 +500,7 @@ We measured indicators like unemployment rate, median income, presidential appro
                     <div class="col-xl-12 col-md-12">
                       <div class="single_service text-center">
                           <div class="icon">
-                              <img src="img/005_stock_features_ML.png" alt=>
+                              <img src="images/005_stock_features_ML.png" alt=>
                           </div>
                           <h3>Stock Features Only </h3>
                           <p>
