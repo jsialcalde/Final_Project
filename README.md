@@ -5,9 +5,9 @@ Group Members: Jess, Baljit, Rick, Tanvir
 
 ## Abstract
 
-	The goal was to gather a variety of indicators which could give insight into the "feeling" or "mood" of a society.  
-Things like unemployment rate, median income, presidential approval ratings and news headlines. Then all these indicators could  
-be tested against film Box Office in order to determine how they effect movie going habits.
+The goal was to gather a variety of indicators which could give insight into the "feeling" or "mood" of a society.    
+Things like unemployment rate, median income, presidential approval ratings and news headlines. Then all these indicators could    
+be tested against film Box Office in order to determine how they effect movie going habits.  
 
 ## Data Sources
 
